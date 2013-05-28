@@ -2,8 +2,8 @@
 Version=1.0
 Encoding=UTF-8
 Type=Application
-Exec=@libexecdir@/meego-panel-applications
-TryExec=@libexecdir@/meego-panel-applications
+Exec=@PKG_LIBEXECDIR@/gogoo-panel-applications
+TryExec=@PKG_LIBEXECDIR@/gogoo-panel-applications
 _Name=applications
 Icon=meego-panel-applications
 _Comment=Applications panel
