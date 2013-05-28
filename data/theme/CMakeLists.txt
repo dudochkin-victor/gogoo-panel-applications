@@ -14,7 +14,7 @@ SET(THEME_SRCS
 	launcher-search-bg.png
     )
 
-INSTALL(FILES ${THEME_SRCS} DESTINATION ${PKG_DATADIR}/${PROGRAMS}/theme)
+INSTALL(FILES ${THEME_SRCS} DESTINATION ${PKG_DATADIR}/gogoo-panle-applications/theme)
 
 
 
