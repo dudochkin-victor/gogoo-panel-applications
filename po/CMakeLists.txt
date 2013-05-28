@@ -1,8 +1,7 @@
 # Translations
 include (Translations)
-add_translations_directory ("wingpanel")
-add_translations_catalog ("wingpanel"
-    ../src/Widgets
-    ../src/Services
+add_translations_directory ("meego-panel-applications")
+add_translations_catalog ("meego-panel-applications"
+#    ../src
     ../src
 )
