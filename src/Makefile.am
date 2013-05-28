@@ -5,7 +5,7 @@ AM_CFLAGS = \
 	-DDATADIR=\"$(datadir)\" \
 	-DLOCALEDIR=\"$(localedir)\" \
 	-DMX_CACHE=\"$(pkgdatadir)/mx.cache\" \
-	-DTHEMEDIR=\"$(pkgdatadir)/theme\"
+        -DTHEMEDIR=\"$(pkgdatadir)/theme\"
 
 libexec_PROGRAMS = meego-panel-applications
 

@@ -32,7 +32,7 @@
 #include <meego-panel/mpl-panel-clutter.h>
 #include <meego-panel/mpl-panel-common.h>
 #include "meego-netbook-launcher.h"
-#include "config.h"
+//#include "config.h"
 
 static void
 stage_width_notify_cb (ClutterActor  *stage,
