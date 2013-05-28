@@ -4,8 +4,8 @@ SET(THEME_SRCS
 	apps-normal.png
 	panel.css
 	clear-entry.png
-  content-pane-background.png
-  content-pane-header.png
+	content-pane-background.png
+	content-pane-header.png
 	launcher-button-fav-toggle-active.png
 	launcher-button-fav-toggle-checked.png
 	launcher-button-fav-toggle-hover.png
@@ -14,7 +14,7 @@ SET(THEME_SRCS
 	launcher-search-bg.png
     )
 
-INSTALL(FILES ${THEME_SRCS} DESTINATION ${PKG_DATADIR}/gogoo-panel-applications/theme)
+INSTALL(FILES ${THEME_SRCS} DESTINATION ${PKG_DATADIR}/${PROGRAMS}/theme)
 
 
 
